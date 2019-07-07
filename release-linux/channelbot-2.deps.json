@@ -15,21 +15,9 @@
           "Newtonsoft.Json": "12.0.1",
           "Pomelo.EntityFrameworkCore.MySql": "2.2.0",
           "Reddit": "1.0.0",
-          "dotenv.net": "1.0.4"
         },
         "runtime": {
           "channelbot-2.dll": {}
-        }
-      },
-      "dotenv.net/1.0.4": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "2.2.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/dotenv.net.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
-          }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -1251,13 +1239,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "dotenv.net/1.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kiZlyBQRNlPV8cQV0F/B8MJBvl52N6l7qVVd3AOHiux89VJLRd1JRuA3ktIw43r5S1y1IjdGyCMiQI/wmpRSRA==",
-      "path": "dotenv.net/1.0.4",
-      "hashPath": "dotenv.net.1.0.4.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",

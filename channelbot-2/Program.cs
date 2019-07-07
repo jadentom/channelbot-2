@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Drawing;
 using System.Net.Http;
 using System.Threading;
-using dotenv.net;
 using Reddit;
 
 namespace channelbot_2
@@ -26,10 +22,9 @@ namespace channelbot_2
 
         private static void Main(string[] args)
         {
-            Console.Clear();
+            //Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\r\n #####                                                                    #####  \r\n#     # #    #   ##   #    # #    # ###### #      #####   ####  #####    #     # \r\n#       #    #  #  #  ##   # ##   # #      #      #    # #    #   #            # \r\n#       ###### #    # # #  # # #  # #####  #      #####  #    #   #       #####  \r\n#       #    # ###### #  # # #  # # #      #      #    # #    #   #      #       \r\n#     # #    # #    # #   ## #   ## #      #      #    # #    #   #      #       \r\n #####  #    # #    # #    # #    # ###### ###### #####   ####    #      ####### \r\n");
-            DotEnv.Config();
+            Console.WriteLine("Starting ChannelBot2");
             Console.CancelKeyPress += (sender, eArgs) => {
                 QuitEvent.Set();
                 eArgs.Cancel = true;
